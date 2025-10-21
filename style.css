@@ -8,7 +8,7 @@
 /*this line targets the <body>*/
 body {
     background-color: blueviolet;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
     font-size: 25px;
     line-height: 1.6; /* separates lines for readability */
 }
@@ -16,4 +16,44 @@ body {
 /*GROUP SELECTOR*/
 h1,h2,h3,h4,h5,h6 {
     margin-bottom: 0.5em; /* scales with font size*/
+    padding-left: 30px;
+    color:brown
+}
+
+/*overrides h1*/
+h1 {
+    text-align: center;
+}
+
+section{
+    background-color: aqua;
+    border-style: groove;
+    border-width: 20px;
+    border-color: brown;
+    border-radius: 10px;
+    margin-top: 1em;
+    padding:1em;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover; /*crops the extra parts of the image */
+    object-position: center; /*moves it to the center of the box */
+    border-radius: 100%;
+}
+
+ul, ol{
+    margin-left: 1em;
+}
+a {
+    color: orange;
+}
+#fun {
+color: blue;
+padding-left: 30px;
+}
+#we{
+    color: white;
+    width: 50px;
 }
