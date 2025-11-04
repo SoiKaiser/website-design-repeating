@@ -1,5 +1,13 @@
+/* Imports the google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* variables for this website*/
+:root {
+    --primary: #7b4b2d;
+    --light: #ffffff;
+    --dark: #363029;
+    --muted: #f8f6f5;
+}
 
 /*CSS Reset*/
 *{
@@ -18,15 +26,15 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.5rem;
 }
 /********************* COLORS *************************/
-.bg-primary{background-color: rgb(123, 75, 45);}
-.bg-light { background-color:#ffffff;}
-.bg-dark {background-color: rgb(54,48,41);}
-.bg-muted {background-color: rgb(248,246,245);}
+.bg-primary{background-color: var(--primary);}
+.bg-light { background-color: var(--light);}
+.bg-dark {background-color:  var(--dark)}
+.bg-muted {background-color:  var(--muted)}
 
-.text-primary{color: rgb(123, 75, 45);}
-.text-light {color:#ffffff;}
-.text-dark {color: rgb(54,48,41);}
-.text-muted {color: rgb(248,246,245);}
+.text-primary{color: var(--primary);}
+.text-light {color: var(--light);}
+.text-dark {color: var(--dark);}
+.text-muted {color: var(--muted);}
 /********************* SWATCHES ************************/
 .swatches {
     display: flex;
