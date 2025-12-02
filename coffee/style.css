@@ -193,3 +193,38 @@ h1, h2, h3, h4, h5, h6 {
 .swatch .swatch-names {
     text-align: center;
 }
+
+/********************* TEXT ************************/
+.line-1{
+    display: -webkit-box; /* Chrome-based browsers*/
+    display: -moz-box; /*firefox*/
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+
+    height: 1.5em;
+    overflow: clip;
+    text-overflow: ellipsis;
+}
+
+.line-2{
+    display: -webkit-box; /* Chrome-based browsers*/
+    display: -moz-box; /*firefox*/
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+
+    height: 3em;
+    overflow: clip;
+    text-overflow: ellipsis;
+}
+
+.grid-2col div {
+    background-color: var(--muted-shade);
+    margin: 1em;
+}
+
+.grid-2col p {
+    padding: 1em;
+        color: var(--dark);
+}
