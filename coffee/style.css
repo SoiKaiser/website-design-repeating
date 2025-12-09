@@ -256,3 +256,18 @@ grid-row: 2;
     padding: 1em;
         color: var(--dark);
 }
+
+/********************* MOBILE ************************/
+@media (max-width: 600px) {
+
+    .sm-grid-1col {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+        .sm-grid-1col {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
